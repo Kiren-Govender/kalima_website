@@ -7,7 +7,7 @@ def index(request):
     return render(request, "mainsite/index.html")
 
 def test(request):
-    return HttpResponse("Hello Test")
+    return render(request, "mainsite/footer.html")
 
 def greet(request, name):
     return HttpResponse(f"Hello {name}")
