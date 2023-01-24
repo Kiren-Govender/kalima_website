@@ -13,7 +13,7 @@ def services(request):
     return render(request, "mainsite/pages/services.html")
 
 def contact(request):
-    return render(request, "mainsite/pages/services.html")
+    return render(request, "mainsite/pages/newservices.html")
 
 def greet(request, name):
     return HttpResponse(f"Hello {name}")
